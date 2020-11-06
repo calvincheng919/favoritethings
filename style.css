@@ -1,0 +1,58 @@
+/* * {
+  outline: black solid 1px;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  float: left;
+  background: lightskyblue;
+  height: 225px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  border: 3px gray solid;
+  border-radius: 5px;
+  color: darkgray;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+section:hover {
+  background: lightgreen;
+  color: black;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+}
+
+.nav {
+  float: left;
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 55px;
+}
+
+header {
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+nav {
+  margin: auto;
+  width: 50%;
+  outline: 1px solid black;
+}
+
+img {
+  width: 200px;
+  height: 180px;
+  object-fit: contain;
+}
